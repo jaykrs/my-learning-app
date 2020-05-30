@@ -1,0 +1,122 @@
+{
+  "kind": "collectionType",
+  "collectionName": "test_centres",
+  "info": {
+    "name": "TestCentre"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "TestCentreName": {
+      "type": "string",
+      "required": true
+    },
+    "Address": {
+      "type": "text",
+      "required": true
+    },
+    "City": {
+      "type": "enumeration",
+      "enum": [
+        "Mumbai",
+        "Delhi",
+        "Bengaluru",
+        "Ahmedabad",
+        "Hyderabad",
+        "Chennai",
+        "Kolkata",
+        "Pune",
+        "Jaipur",
+        "Surat",
+        "Lucknow",
+        "Kanpur",
+        "Nagpur",
+        "Patna",
+        "Indore",
+        "Thane",
+        "Bhopal"
+      ]
+    },
+    "PinCode": {
+      "type": "string",
+      "required": true
+    },
+    "District": {
+      "type": "string"
+    },
+    "State": {
+      "type": "enumeration",
+      "enum": [
+        "AndhraPradesh",
+        "ArunachalPradesh",
+        "Assam",
+        "Bihar"
+      ]
+    },
+    "PhoneNo": {
+      "type": "string"
+    },
+    "ContactpersonName": {
+      "type": "string"
+    },
+    "Contactpersondesignation": {
+      "type": "string"
+    },
+    "ContactPersonMobile": {
+      "type": "string"
+    },
+    "Contactpersonemailid": {
+      "type": "string"
+    },
+    "NoofRooms": {
+      "type": "string"
+    },
+    "PowerBackup": {
+      "type": "enumeration",
+      "enum": [
+        "Generator",
+        "Invertor",
+        "Notavailable"
+      ]
+    },
+    "ExamCoordinatorName": {
+      "type": "string"
+    },
+    "ExamCoordinatorMobile": {
+      "type": "string"
+    },
+    "ExamCoordinatorEmailid": {
+      "type": "string"
+    },
+    "CentreStartTime": {
+      "type": "time"
+    },
+    "CentreCloseTime": {
+      "type": "time"
+    },
+    "PhotoofCentrebuildingwithname": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "PhotoGallary": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

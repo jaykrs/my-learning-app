@@ -1,0 +1,65 @@
+{
+  "kind": "collectionType",
+  "collectionName": "examiners",
+  "info": {
+    "name": "Examiner"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "NameofExaminer": {
+      "type": "string"
+    },
+    "Address": {
+      "type": "text"
+    },
+    "City": {
+      "type": "enumeration",
+      "enum": [
+        "Mumbai",
+        "Delhi",
+        "Bengaluru",
+        "Ahmedabad",
+        "Hyderabad",
+        "Chennai",
+        "Kolkata",
+        "Pune"
+      ]
+    },
+    "PinCode": {
+      "type": "string"
+    },
+    "District": {
+      "type": "string"
+    },
+    "State": {
+      "type": "enumeration",
+      "enum": [
+        "Tamilnadu",
+        "Kerala",
+        "Karnataka",
+        "Maharashtra",
+        "Telengana",
+        "MadhyaPradesh",
+        "UtterPradesh",
+        "Bihar",
+        "NCT",
+        "UT"
+      ]
+    },
+    "Mobile": {
+      "type": "string"
+    },
+    "Emailid": {
+      "type": "string"
+    },
+    "Qualification": {
+      "type": "string"
+    },
+    "ExperienceinYears": {
+      "type": "integer"
+    }
+  }
+}
