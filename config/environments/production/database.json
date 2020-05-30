@@ -4,12 +4,12 @@
     "default": {
       "connector": "strapi-hook-bookshelf",
       "settings": {
-        "client": "sqlite",
-        "host": "${process.env.DATABASE_HOST || '127.0.0.1'}",
-        "port": "${process.env.DATABASE_PORT || 27017}",
-        "database": "${process.env.DATABASE_NAME || 'strapi'}",
-        "username": "${process.env.DATABASE_USERNAME || ''}",
-        "password": "${process.env.DATABASE_PASSWORD || ''}"
+        "client": "postgres",
+        "host": "${process.env.DATABASE_HOST || 'ec2-34-230-149-169.compute-1.amazonaws.com'}",
+        "port": "${process.env.DATABASE_PORT || 5432}",
+        "database": "${process.env.DATABASE_NAME || 'dbda5ogitl4fer'}",
+        "username": "${process.env.DATABASE_USERNAME || 'ojwucgvbmqdvgc'}",
+        "password": "${process.env.DATABASE_PASSWORD || '8afeea33bdbdd3999346b64d40c609c64eafbbc26e7955e294b0ba6755803bc1'}"
       },
       "options": {}
     }
