@@ -117,6 +117,9 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "rooms": {
+      "collection": "room"
     }
   }
 }
