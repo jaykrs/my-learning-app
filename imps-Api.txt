@@ -1,0 +1,67 @@
+<----------------------------------------------------------------------------------Login API------------------------------------------------------------------------------------>
+	http://localhost:1337/auth/local
+
+	parameter:-
+		{
+		  "identifier": "avi@in.com",
+		  "password": "Welcome@0"
+		}
+		
+	Response:-	
+		{
+    "jwt": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNTkyNTg2MjYzLCJleHAiOjE1OTUxNzgyNjN9.KtwK9wwv8VYTF1WC3GQesVMaQvKENIWtfxNxFqoYYU8",
+    "user": {
+        "id": 1,
+        "username": "avi@in.com",
+        "email": "avi@in.com",
+        "provider": "local",
+        "confirmed": true,
+        "blocked": false,
+        "role": {
+            "id": 1,
+            "name": "Authenticated",
+            "description": "Default role given to authenticated user.",
+            "type": "authenticated"
+        },
+        "firstName": "Avinash",
+        "lastName": "Kumar",
+        "phone": "8651008473",
+        "userType": "admin",
+        "sex": "m",
+        "dob": "2020-01-14",
+        "remarks": "assddffghhj",
+        "created_at": "2020-06-19T16:58:40.081Z",
+        "updated_at": "2020-06-19T16:58:40.130Z",
+        "avatar": {
+            "id": 1,
+            "name": "logo",
+            "alternativeText": "",
+            "caption": "",
+            "width": 70,
+            "height": 70,
+            "formats": null,
+            "hash": "logo_2b007f8581",
+            "ext": ".png",
+            "mime": "image/png",
+            "size": 3.92,
+            "url": "/uploads/logo_2b007f8581.png",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "created_at": "2020-06-19T16:58:33.568Z",
+            "updated_at": "2020-06-19T16:58:33.568Z"
+        }
+    }
+}
+
+<-----------------------------------------------------------------------User Signup---------------------------------------------------------------------------------------->
+
+	http://localhost:1337/auth/local/register
+	
+	parameter:-
+		{
+		   "username": "user@in.com",
+			"email": "user@in.com",
+			"password": "Welcome@0",
+			"userType": "agency"
+		}
