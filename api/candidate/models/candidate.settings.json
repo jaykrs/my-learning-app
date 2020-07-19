@@ -1,0 +1,67 @@
+{
+  "kind": "collectionType",
+  "collectionName": "candidates",
+  "info": {
+    "name": "Candidate"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "EnrollmentNo": {
+      "type": "string"
+    },
+    "Title": {
+      "type": "enumeration",
+      "enum": [
+        "Mr",
+        "Mrs",
+        "Jr",
+        "Miss",
+        "Oth"
+      ]
+    },
+    "CandidateName": {
+      "type": "string"
+    },
+    "Emailid": {
+      "type": "string"
+    },
+    "Mobile": {
+      "type": "string"
+    },
+    "LevelofExam": {
+      "type": "string"
+    },
+    "LanguageofExam": {
+      "type": "string"
+    },
+    "DateofExam": {
+      "type": "datetime"
+    },
+    "test_centre": {
+      "model": "test-centre"
+    },
+    "examiner": {
+      "model": "examiner"
+    },
+    "Examiner1Code": {
+      "model": "examiner"
+    },
+    "examiner2Code": {
+      "model": "examiner"
+    },
+    "PhotoofCandidate": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

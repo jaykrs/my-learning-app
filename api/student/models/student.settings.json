@@ -9,35 +9,14 @@
     "timestamps": true
   },
   "attributes": {
-    "display_name": {
+    "name": {
       "type": "string"
     },
-    "education": {
-      "type": "enumeration",
-      "enum": [
-        "below_graduate",
-        "graduate",
-        "professional_graduate",
-        "postgraduate",
-        "phd",
-        "ca",
-        "others"
-      ]
-    },
-    "user_id": {
-      "type": "integer"
-    },
-    "enrollment_count": {
-      "type": "integer"
-    },
-    "completion_count": {
-      "type": "integer"
-    },
-    "avatar_url": {
-      "type": "string"
-    },
-    "biography": {
+    "about": {
       "type": "richtext"
+    },
+    "class": {
+      "type": "string"
     }
   }
 }

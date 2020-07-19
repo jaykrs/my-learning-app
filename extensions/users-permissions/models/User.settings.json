@@ -53,7 +53,10 @@
       "plugin": "users-permissions",
       "configurable": false
     },
-    "name": {
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
       "type": "string"
     },
     "phone": {
@@ -63,8 +66,8 @@
       "type": "enumeration",
       "enum": [
         "admin",
-        "student",
-        "instructor",
+        "agency",
+        "influencer",
         "others"
       ],
       "required": true,
@@ -84,11 +87,16 @@
     "remarks": {
       "type": "richtext"
     },
-    "avatar_url": {
-      "type": "string"
-    },
-    "registration_date": {
-      "type": "date"
+    "avatar": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
     }
   }
 }

@@ -12,9 +12,8 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "dotenv": "^8.2.0",
     "fs": "^0.0.1-security",
-    "graphql": "^15.3.0",
+    "dotenv": "^8.2.0",
     "knex": "<0.20.0",
     "pg": "^8.0.3",
     "sqlite3": "latest",
