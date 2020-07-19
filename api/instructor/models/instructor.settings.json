@@ -1,0 +1,60 @@
+{
+  "kind": "collectionType",
+  "collectionName": "instructors",
+  "info": {
+    "name": "instructor"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "display_name": {
+      "type": "string"
+    },
+    "qualification": {
+      "type": "enumeration",
+      "enum": [
+        "below_graduate",
+        "graduate",
+        "master",
+        "professional_graduate",
+        "phd",
+        "ca"
+      ]
+    },
+    "user_id": {
+      "type": "integer"
+    },
+    "avatar_url": {
+      "type": "string"
+    },
+    "introduction_brief": {
+      "type": "richtext"
+    },
+    "published_course_count": {
+      "type": "integer"
+    },
+    "enrollment_student_count": {
+      "type": "integer"
+    },
+    "average_rating": {
+      "type": "integer"
+    },
+    "work_exp_yr": {
+      "type": "integer"
+    },
+    "intro_video_url": {
+      "type": "string"
+    },
+    "copyright_hold": {
+      "type": "string"
+    },
+    "linkedin_url": {
+      "type": "string"
+    },
+    "education_institute": {
+      "type": "string"
+    }
+  }
+}

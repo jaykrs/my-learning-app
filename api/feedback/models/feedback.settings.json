@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "feedbacks",
+  "info": {
+    "name": "feedback"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "enrollment": {
+      "model": "enrollment"
+    },
+    "rating_score": {
+      "type": "integer"
+    },
+    "feedback_text": {
+      "type": "text"
+    }
+  }
+}

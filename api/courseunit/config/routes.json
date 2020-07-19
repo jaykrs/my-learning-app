@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/courseunits",
+      "handler": "courseunit.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/courseunits/count",
+      "handler": "courseunit.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/courseunits/:id",
+      "handler": "courseunit.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/courseunits",
+      "handler": "courseunit.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/courseunits/:id",
+      "handler": "courseunit.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/courseunits/:id",
+      "handler": "courseunit.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

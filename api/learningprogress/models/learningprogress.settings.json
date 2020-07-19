@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "learningprogresses",
+  "info": {
+    "name": "learningprogress"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "learning_progress": {
+      "type": "string"
+    },
+    "enrollment": {
+      "model": "enrollment"
+    },
+    "chapter": {
+      "model": "chapter"
+    },
+    "begin_time": {
+      "type": "datetime"
+    },
+    "end_time": {
+      "type": "datetime"
+    },
+    "status": {
+      "type": "boolean"
+    }
+  }
+}
