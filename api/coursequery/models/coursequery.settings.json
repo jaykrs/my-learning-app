@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "coursequeries",
+  "info": {
+    "name": "coursequery"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "question_txt": {
+      "type": "text"
+    },
+    "courseid": {
+      "type": "integer"
+    },
+    "studentid": {
+      "type": "integer"
+    },
+    "answer": {
+      "type": "richtext"
+    }
+  }
+}

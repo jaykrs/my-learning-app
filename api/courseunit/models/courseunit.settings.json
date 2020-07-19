@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "courseunits",
+  "info": {
+    "name": "courseunit"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "unit_title": {
+      "type": "string"
+    },
+    "unit_brief": {
+      "type": "richtext"
+    },
+    "metadata": {
+      "type": "string"
+    },
+    "unit_duration": {
+      "type": "integer"
+    },
+    "unit_introductory_video": {
+      "type": "string"
+    },
+    "course_unit_order": {
+      "type": "integer"
+    },
+    "chapters": {
+      "collection": "chapter"
+    }
+  }
+}
