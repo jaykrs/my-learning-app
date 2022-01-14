@@ -1,0 +1,59 @@
+{
+  "kind": "collectionType",
+  "collectionName": "invoices",
+  "info": {
+    "name": "Invoice"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "invoicename": {
+      "type": "string"
+    },
+    "customer": {
+      "model": "customer",
+      "via": "invoices"
+    },
+    "project": {
+      "model": "project",
+      "via": "invoices"
+    },
+    "invoicedate": {
+      "type": "date"
+    },
+    "invoiceamount": {
+      "type": "integer"
+    },
+    "invoicetax": {
+      "type": "integer"
+    },
+    "invoicetotal": {
+      "type": "integer"
+    },
+    "inovicediscount": {
+      "type": "integer"
+    },
+    "invoicedescription": {
+      "type": "richtext"
+    },
+    "paidstatus": {
+      "type": "boolean"
+    },
+    "paiddate": {
+      "type": "date"
+    },
+    "invoicepdf": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}
