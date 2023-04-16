@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "jobposts",
+  "info": {
+    "singularName": "jobpost",
+    "pluralName": "jobposts",
+    "displayName": "jobpost"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "organization_name": {
+      "type": "string"
+    },
+    "organization_url": {
+      "type": "string"
+    },
+    "post_title": {
+      "type": "text"
+    },
+    "post_description": {
+      "type": "richtext"
+    },
+    "post_attachment": {
+      "type": "string"
+    },
+    "start_date": {
+      "type": "date"
+    },
+    "end_date": {
+      "type": "date"
+    },
+    "metadata": {
+      "type": "string"
+    },
+    "contact_person": {
+      "type": "string"
+    },
+    "comments": {
+      "type": "richtext"
+    },
+    "qualification_required": {
+      "type": "string"
+    }
+  }
+}

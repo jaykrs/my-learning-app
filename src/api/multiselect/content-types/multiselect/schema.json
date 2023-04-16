@@ -1,0 +1,86 @@
+{
+  "kind": "collectionType",
+  "collectionName": "multiselects",
+  "info": {
+    "singularName": "multiselect",
+    "pluralName": "multiselects",
+    "displayName": "multiselect"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "question_title": {
+      "type": "text"
+    },
+    "question_attachment": {
+      "type": "string"
+    },
+    "option_a_text": {
+      "type": "text"
+    },
+    "option_a_attachment": {
+      "type": "string"
+    },
+    "option_a_is_answer": {
+      "type": "boolean",
+      "default": false
+    },
+    "option_b_text": {
+      "type": "text"
+    },
+    "option_b_attachment": {
+      "type": "string"
+    },
+    "option_b_is_answer": {
+      "type": "boolean",
+      "default": false
+    },
+    "option_c_text": {
+      "type": "text"
+    },
+    "option_c_attachment": {
+      "type": "string"
+    },
+    "option_c_is_answer": {
+      "type": "boolean",
+      "default": false
+    },
+    "option_d_text": {
+      "type": "text"
+    },
+    "option_d_attachment": {
+      "type": "string"
+    },
+    "option_d_is_answer": {
+      "type": "boolean",
+      "default": false
+    },
+    "option_e_text": {
+      "type": "text"
+    },
+    "option_e_attachment": {
+      "type": "string"
+    },
+    "option_e_is_answer": {
+      "type": "boolean",
+      "default": false
+    },
+    "marks": {
+      "type": "integer"
+    },
+    "author": {
+      "type": "string"
+    },
+    "suggestion_remarks": {
+      "type": "text"
+    },
+    "suggestion_attachment": {
+      "type": "string"
+    },
+    "metadata": {
+      "type": "string"
+    }
+  }
+}

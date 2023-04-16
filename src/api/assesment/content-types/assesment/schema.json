@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "assesments",
+  "info": {
+    "singularName": "assesment",
+    "pluralName": "assesments",
+    "displayName": "assesment"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "assesment_title": {
+      "type": "text"
+    },
+    "assesment_description": {
+      "type": "text"
+    },
+    "assesment_marks": {
+      "type": "integer"
+    },
+    "author": {
+      "type": "string"
+    },
+    "course": {
+      "type": "string"
+    },
+    "passmarks": {
+      "type": "integer"
+    },
+    "assesment_attachment": {
+      "type": "string"
+    },
+    "isactive": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

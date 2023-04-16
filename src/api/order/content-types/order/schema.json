@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "orders",
+  "info": {
+    "singularName": "order",
+    "pluralName": "orders",
+    "displayName": "order"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "customeremail": {
+      "type": "string"
+    },
+    "courseid": {
+      "type": "string"
+    },
+    "sourceip": {
+      "type": "string"
+    },
+    "amount": {
+      "type": "integer"
+    },
+    "payment_status": {
+      "type": "boolean",
+      "default": false
+    },
+    "transactionid": {
+      "type": "string"
+    },
+    "payment_method": {
+      "type": "string"
+    },
+    "remarks": {
+      "type": "string"
+    }
+  }
+}

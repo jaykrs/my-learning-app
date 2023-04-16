@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "truefalses",
+  "info": {
+    "singularName": "truefalse",
+    "pluralName": "truefalses",
+    "displayName": "truefalse"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "question_title": {
+      "type": "text"
+    },
+    "question_attachment": {
+      "type": "string"
+    },
+    "option_true": {
+      "type": "string"
+    },
+    "option_true_is_answer": {
+      "type": "boolean"
+    },
+    "option_false": {
+      "type": "string"
+    },
+    "option_false_is_answer": {
+      "type": "boolean"
+    },
+    "author": {
+      "type": "string"
+    },
+    "marks": {
+      "type": "integer"
+    },
+    "suggestion_remarks": {
+      "type": "text"
+    },
+    "suggestion_attachment": {
+      "type": "string"
+    },
+    "metadata": {
+      "type": "string"
+    }
+  }
+}
