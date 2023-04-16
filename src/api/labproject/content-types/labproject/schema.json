@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "labprojects",
+  "info": {
+    "singularName": "labproject",
+    "pluralName": "labprojects",
+    "displayName": "labproject"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "customerid": {
+      "type": "string"
+    },
+    "courseid": {
+      "type": "string"
+    },
+    "unit": {
+      "type": "string"
+    },
+    "instructor": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "attachment": {
+      "type": "string"
+    },
+    "answer": {
+      "type": "richtext"
+    },
+    "answerattachment": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "marks": {
+      "type": "integer"
+    }
+  }
+}

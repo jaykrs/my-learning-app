@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "feedbacks",
+  "info": {
+    "singularName": "feedback",
+    "pluralName": "feedbacks",
+    "displayName": "feedback"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "customeremail": {
+      "type": "string"
+    },
+    "customername": {
+      "type": "string"
+    },
+    "enrollment": {
+      "type": "string"
+    },
+    "rating_score": {
+      "type": "integer"
+    },
+    "feedback_text": {
+      "type": "richtext"
+    },
+    "metadata": {
+      "type": "string"
+    }
+  }
+}

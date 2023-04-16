@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "invoices",
+  "info": {
+    "singularName": "invoice",
+    "pluralName": "invoices",
+    "displayName": "invoice"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "customeremail": {
+      "type": "string"
+    },
+    "course": {
+      "type": "string"
+    },
+    "invoicedate": {
+      "type": "date"
+    },
+    "invoiceamount": {
+      "type": "integer"
+    },
+    "invoicetax": {
+      "type": "integer"
+    },
+    "invoicetotal": {
+      "type": "integer"
+    },
+    "inovicediscount": {
+      "type": "integer"
+    },
+    "invoicedescription": {
+      "type": "richtext"
+    },
+    "paidstatus": {
+      "type": "boolean",
+      "default": false
+    },
+    "paiddate": {
+      "type": "date"
+    },
+    "invoicepdf": {
+      "type": "string"
+    },
+    "transactionid": {
+      "type": "string"
+    }
+  }
+}

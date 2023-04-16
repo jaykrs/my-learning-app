@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "learningprogresses",
+  "info": {
+    "singularName": "learningprogress",
+    "pluralName": "learningprogresses",
+    "displayName": "learningprogress",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "enrollment": {
+      "type": "string"
+    },
+    "chapter": {
+      "type": "string"
+    },
+    "begin_time": {
+      "type": "date"
+    },
+    "end_time": {
+      "type": "date"
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "start",
+        "ongoing",
+        "finish"
+      ]
+    },
+    "customeremail": {
+      "type": "string"
+    },
+    "courseid": {
+      "type": "string"
+    }
+  }
+}

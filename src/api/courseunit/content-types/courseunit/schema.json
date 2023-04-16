@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "courseunits",
+  "info": {
+    "singularName": "courseunit",
+    "pluralName": "courseunits",
+    "displayName": "courseunit",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "unit_title": {
+      "type": "string"
+    },
+    "unit_brief": {
+      "type": "richtext"
+    },
+    "metadata": {
+      "type": "string"
+    },
+    "unit_introductory_video": {
+      "type": "string"
+    },
+    "unit_duration": {
+      "type": "integer"
+    },
+    "chapters": {
+      "type": "string"
+    },
+    "course_unit_order": {
+      "type": "integer"
+    },
+    "labproject": {
+      "type": "richtext"
+    },
+    "labproject_attachment": {
+      "type": "string"
+    }
+  }
+}

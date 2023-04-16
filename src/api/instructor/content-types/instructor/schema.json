@@ -1,0 +1,60 @@
+{
+  "kind": "collectionType",
+  "collectionName": "instructors",
+  "info": {
+    "singularName": "instructor",
+    "pluralName": "instructors",
+    "displayName": "instructor"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "display_name": {
+      "type": "string"
+    },
+    "instructoremail": {
+      "type": "string"
+    },
+    "qualification": {
+      "type": "enumeration",
+      "enum": [
+        "below_graduate",
+        "graduate",
+        "master",
+        "professional_graduate",
+        "phd",
+        "ca",
+        "technical_graduate"
+      ]
+    },
+    "introduction_brief": {
+      "type": "richtext"
+    },
+    "published_course_count": {
+      "type": "integer"
+    },
+    "enrollment_student_count": {
+      "type": "integer"
+    },
+    "average_rating": {
+      "type": "integer"
+    },
+    "work_exp_yr": {
+      "type": "integer"
+    },
+    "intro_video_url": {
+      "type": "string"
+    },
+    "copyright_hold": {
+      "type": "string"
+    },
+    "linkedin_url": {
+      "type": "string"
+    },
+    "education_institute": {
+      "type": "string"
+    }
+  }
+}

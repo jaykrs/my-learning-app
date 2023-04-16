@@ -1,40 +1,42 @@
 {
-  "name": "strapi-heroku",
+  "name": "my-learning-app",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "learning Services application",
   "scripts": {
     "develop": "strapi develop",
-    "start": "strapi develop",
+    "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi develop",
-    "heroku-prebuild": "node scripts/postgres-env.js"
+    "strapi": "strapi"
   },
-  "devDependencies": {},
   "dependencies": {
-    "fs": "^0.0.1-security",
-    "dotenv": "^8.2.0",
-    "knex": "<0.20.0",
-    "pg": "^8.0.3",
-    "sqlite3": "latest",
-    "strapi": "3.0.0",
-    "strapi-admin": "3.0.0",
-    "strapi-connector-bookshelf": "3.0.0",
-    "strapi-plugin-content-manager": "3.0.0",
-    "strapi-plugin-content-type-builder": "3.0.0",
-    "strapi-plugin-email": "3.0.0",
-    "strapi-plugin-upload": "3.0.0",
-    "strapi-plugin-users-permissions": "3.0.0",
-    "strapi-utils": "3.0.0"
+    "@strapi/plugin-graphql": "^4.1.12",
+    "@strapi/plugin-i18n": "4.1.12",
+    "@strapi/plugin-users-permissions": "4.1.12",
+    "@strapi/strapi": "4.1.12",
+    "@webbio/strapi-plugin-scheduler": "^0.1.0",
+    "axios": "^0.21.1",
+    "forever": "^4.0.0",
+    "fs": "0.0.1-security",
+    "https": "^1.0.0",
+    "imagekit": "^3.2.5",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "2.18.1",
+    "node-mailjet": "^3.4.1",
+    "node-rest-client": "^3.1.1",
+    "querystring": "^0.2.1",
+    "strapi-plugin-email-designer": "^2.1.1",
+    "strapi-plugin-rest-cache": "^4.2.4",
+    "strapi-provider-rest-cache-memory": "^4.2.4"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "learing developer"
   },
   "strapi": {
-    "uuid": ""
+    "uuid": "c027a839-9b4e-4e3f-888b-a30d00789e98"
   },
   "engines": {
-    "node": ">=10.0.0",
+    "node": ">=12.x.x <=16.x.x",
     "npm": ">=6.0.0"
   },
   "license": "MIT"

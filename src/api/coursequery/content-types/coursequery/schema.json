@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "coursequeries",
+  "info": {
+    "singularName": "coursequery",
+    "pluralName": "coursequeries",
+    "displayName": "coursequery"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "question_txt": {
+      "type": "text"
+    },
+    "question_attachment": {
+      "type": "string"
+    },
+    "courseid": {
+      "type": "string"
+    },
+    "studentid": {
+      "type": "string"
+    },
+    "answer": {
+      "type": "text"
+    },
+    "answer_attachment": {
+      "type": "string"
+    }
+  }
+}
