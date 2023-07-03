@@ -27,7 +27,8 @@
     "querystring": "^0.2.1",
     "strapi-plugin-email-designer": "^2.1.1",
     "strapi-plugin-rest-cache": "^4.2.4",
-    "strapi-provider-rest-cache-memory": "^4.2.4"
+    "strapi-provider-rest-cache-memory": "^4.2.4",
+    "better-sqlite3" : "8.0.1"
   },
   "author": {
     "name": "learing developer"
