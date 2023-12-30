@@ -4,7 +4,8 @@
   "info": {
     "singularName": "chapter",
     "pluralName": "chapters",
-    "displayName": "chapter"
+    "displayName": "chapter",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -34,6 +35,9 @@
     },
     "chapter_order": {
       "type": "integer"
+    },
+    "courseunitid": {
+      "type": "string"
     }
   }
 }

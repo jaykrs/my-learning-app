@@ -27,7 +27,7 @@
     "unit_duration": {
       "type": "integer"
     },
-    "chapters": {
+    "courseid": {
       "type": "string"
     },
     "course_unit_order": {

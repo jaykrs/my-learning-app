@@ -4,7 +4,8 @@
   "info": {
     "singularName": "course",
     "pluralName": "courses",
-    "displayName": "course"
+    "displayName": "course",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -43,9 +44,6 @@
     },
     "course_outline": {
       "type": "richtext"
-    },
-    "courseunits": {
-      "type": "string"
     },
     "enrollment_count": {
       "type": "integer"
