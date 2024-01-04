@@ -18,12 +18,12 @@ module.exports = ({ env }) => ({
   connection: {
     client: 'mysql',
     connection: {
-      host: env('DATABASE_HOST', 'mysql-1fde4b6d-jaykrs-18b2.a.aivencloud.com'),
-      port: env.int('DATABASE_PORT', 24976),
-      database: env('DATABASE_NAME', 'defaultdb'),
-      user: env('DATABASE_USERNAME', 'avnadmin'),
-      password: env('DATABASE_PASSWORD', 'AVNS_C-WOgEqV9s5iuIpodWj'),
-      ssl: env.bool('DATABASE_SSL', true)
+      host: env('DATABASE_HOST', 'bftoonzu9tfxfcpyfxbc-mysql.services.clever-cloud.com'),
+      port: env.int('DATABASE_PORT', 3306),
+      database: env('DATABASE_NAME', 'bftoonzu9tfxfcpyfxbc'),
+      user: env('DATABASE_USERNAME', 'uqqu6lw0lc3pgjfq'),
+      password: env('DATABASE_PASSWORD', 'JHhvLdrin53EdythqaxL'),
+      ssl: env.bool('DATABASE_SSL', false)
     },
 	pool: { min: 1, max: 4 }
   },
