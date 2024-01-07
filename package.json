@@ -3,6 +3,9 @@
   "private": true,
   "version": "0.1.0",
   "description": "learning Services application",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
